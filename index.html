@@ -1,13 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple HTML Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to My Page</h1>
-    <p>This is a simple paragraph of text.</p>
-    <p>You can add more content here, like images or links.</p>
+  <header>
+    <h1>Bhargav</h1>
+    <p>Web Designer | Student</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I am a passionate Computer Science student with a focus on Web Design and Development. I love building creative, user-friendly websites and exploring new technologies.</p>
+  </section>
+
+  <section class="education">
+    <h2>Education</h2>
+    <ul>
+      <li><strong>B.Tech in Computer Science</strong> – XYZ University (2022–2026)</li>
+      <li><strong>High School</strong> – ABC School (2020–2022)</li>
+    </ul>
+  </section>
+
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML, CSS, JavaScript</li>
+      <li>React, Node.js</li>
+      <li>MongoDB, Express</li>
+      <li>UI/UX Design</li>
+    </ul>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><strong>Portfolio Website:</strong> Designed a responsive personal portfolio.</li>
+      <li><strong>Accessibility Analyzer:</strong> Built a React dashboard to check WCAG compliance.</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:bhargav@example.com">bhargav@example.com</a></p>
+    <p>GitHub: <a href="https://github.com/YOUR-GITHUB-USERNAME" target="_blank">github.com/YOUR-GITHUB-USERNAME</a></p>
+    <p>LinkedIn: <a href="https://linkedin.com/in/YOUR-LINKEDIN" target="_blank">linkedin.com/in/YOUR-LINKEDIN</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Bhargav | Made with ❤️</p>
+  </footer>
 </body>
 </html>
+2️⃣ CSS (style.css)
+css
+Copy code
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background: #222;
+  color: white;
+  padding: 1.5rem 0;
+}
+
+h1 {
+  margin: 0;
+}
+
+section {
+  max-width: 800px;
+  margin: 20px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #222;
+  color: white;
+}
+3️⃣ Steps to Host on GitHub Pages
+Create a new repository on GitHub (name it e.g. student-resume).
+
+Upload index.html and style.css into the repo.
+
+Go to Settings → Pages → Deploy from branch and select main branch and / (root) folder.
+
+GitHub will give you a public link like:
+
+lua
+Copy code
+https://your-username.github.io/student-resume/
+Share this link on your resume or LinkedIn.
+
+Would you like me to add dark mode toggle and downloadable PDF resume button to make it look more professional? (This will make your project stand out on GitHub!)
+
+
+
+
+
+
+
+
+Ask ChatGPT
+
